@@ -11,7 +11,7 @@ The initial expectation was to utilize [AWS Workspaces](https://aws.amazon.com/a
 * Linux Workspaces service only allows the use of custom images created from a **AWS standard workspaces** image. We have to go through the steps of launching a standard Workspace, customizing/harden it and creating a bundle out of that workspace.
 * Amazon does not support web access for Linux Workspaces currently. Requiring a [Workspace Client](https://clients.amazonworkspaces.com) installation in order to access a Linux Workspace is not possible on high side environment.
 
-Due to the above issues/limitations, the [SPEL AMI](https://github.com/plus3it/spel/blob/develop/README.md) was selected as the foundation for further work. Note that SPEL was chosen because it is identically available in all of the environments that the AWS Workspaces distribution would have been.
+Due to the above issues/limitations, the [SPEL AMI](https://github.com/MetroStar/spel/blob/develop/README.md) was selected as the foundation for further work. Note that SPEL was chosen because it is identically available in all of the environments that the AWS Workspaces distribution would have been.
 
 ## Current Status
 
